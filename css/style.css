@@ -1,0 +1,27 @@
+body{
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  
+  
+}
+th, td {
+  border:1px solid black;
+}
+
+.logo img{
+  height: 280px;
+  width: 200px;
+}
+.banner img{
+  height: 100px;
+  width: 180px;
+}
+.banner_ing img{
+  height: 160px;
+  width: 100px;
+}
+.kidesness img{
+  height: 280px;
+  width: 200px;
+}
