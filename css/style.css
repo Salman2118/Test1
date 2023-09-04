@@ -22,4 +22,9 @@ th, td {
 .kidesness img{
   height: 280px;
   width: 200px;
+ 
+}
+.Rotate-text{
+  rotate: 90deg;
+  border: none;
 }
