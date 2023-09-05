@@ -1,120 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <title>Document</title>
 </head>
+
 <body>
     <div class="container">
-        <table>
-            <tr>
-                <td>
-                    <img src="image/man_group.jpg" width="200" height="200">
-                </td>
-                <td>
-                    <table>
-                        <tr>
-                            <td colspan="6">
-                            <img src="image/Logo1.jpg" width="400" height="50">  
-                            </td>
-                        </tr>
-                        <tr>
-                            <td colspan="6">
-                                Lorem ipsum dolor sit amet.
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>Home</td>
-                            <td>Objective</td>
-                            <td>Market</td>
-                            <td>Sourcing</td>
-                            <td colspan="2">Contact Us</td>
-                        </tr>
-                        <tr>
-                            <td class="Rotate-text">MAN</td>
-                            <td>
-                                <img src="image/top_photo2.jpg" width="100" height="150">
-                            </td>
-                            <td class="Rotate-text">Kids</td>
-                            <td><img src="image/kids_single.jpg" width="100" height="150">
-                            </td>
-                            <td class="Rotate-text">Woman</td>
-                            <td><img src="image/woman_face.jpg" width="100" height="150">
-                            </td>
-                        </tr>
-                    </table>
-                </td>
-            </tr>
-            <tr>
-               <td>Our Service</td>
-               <td colspan="3">About Us</td>
-               </tr>
-               <tr>
-               <td>deisign & development</td> 
-               <td colspan="3" rowspan="2">
-                <h4>Welcome
-                </h4>
-                    Tex Source International is an apparel sourcing and supply chain<br> Management Company in Bangladesh.
-                    We are sourcing garments, home textiles, <br>fashion accessories, footwear, decorative accessories.
-               </td>  
-            </tr>
-            <tr>
-                <td>In House Lab & Shipping Dpt.</td>
-            </tr>
-            <tr>
-                <td>Our Products</td>
-                <td colspan="3" rowspan="3" class="kidesness">
-                    <img src="image/kids_single.jpg">
-                </td>
-            </tr>
-            <tr>
-                <td>technical &Quality</td>
-            </tr>
-            <tr>
-                <td>Woman</td>
-            </tr>
-            <tr>
-                <td>kids</td>
-                <td>We have taken care to develop a strong network of loyal<br> suppliers who know their jobs well, who excel in the art of<br> garments making..
-                    We always believe ethical and transparent relationship <br>with our customers and suppliers and continue to strengthen then though <br>high quality service.</td>
-            </tr>
-            <tr>
-                <td>Man</td>
-                <td>
-                    <table>
-                    
-                        <tr>
-                            Product Gallery:
-                            <td>
-                               
-                                <img src="image/shirt.jpg" width="100" height="150">
-                            </td>
-                            <td>
-                                <img src="image/shirt+ginse.jpg" width="100" height="150"> 
-                            </td>
-                            <td>
-                                <img src="image/woman.jpg" width="100" height="150">  
-                            </td>
-                            <td >
-                                <img src="image/ledis3.jpg" width="100" height="150">  
-                            </td>
-                        </tr>
+        <div class="re_form">
+            <form class="row g-3">
+                <div class="col-md-6">
+                    <label for="inputEmail4" class="form-label">Fast Name</label>
+                    <input type="email" class="form-control" placeholder="First name" id="inputEmail4">
+                </div>
+                <div class="col-md-6">
+                    <label for="inputEmail4" class="form-label">Last Name</label>
+                    <input type="email" class="form-control" placeholder="Last name" id="inputEmail4">
+                </div>
+                <div class="col-md-6">
+                    <label for="inputEmail4" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="inputEmail4">
+                </div>
+                <div class="col-md-6">
+                    <label for="inputPassword4" class="form-label">Phone Number</label>
+                    <input type="number" class="form-control" id="inputPassword4">
+                </div>
+                <div class="col-12">
+                    <label for="inputAddress" class="form-label">Summary</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <div class="col-md-6">
+                    <label for="inputCity" class="form-label">City</label>
+                    <input type="text" class="form-control" id="inputCity">
+                </div>
+                <div class="col-md-4">
+                    <label for="inputState" class="form-label">Dagenation</label>
+                    <select id="inputState" class="form-select">
+                        <option selected>Choose...</option>
+                        <option>Associate Professor</option>
+                        <option>Assistant Professor</option>
+                        <option>Lecturer</option>
                         
-                    </table>
-                    
-                </td>
-               
-            </tr>
-            <tr>
-                <td>sweaters</td>
-            </tr>
-            <tr>
-                <td>Formal Dress</td>
-            </tr>
-          </table>
+                    </select>
+                </div>
+                <div class="col-md-2">
+                    <label for="inputZip" class="form-label">Zip</label>
+                    <input type="text" class="form-control" id="inputZip">
+                </div>
+                <div class="col-md-6">
+                    <label for="inputZip" class="form-label">Image</label>
+                    <input type="file" class="form-control" id="inputGroupFile01">
+                </div>
+                <div class="col-md-6">
+                    <label for="inputZip" class="form-label">Uplode CV</label>
+                    <input type="file" class="form-control" id="inputGroupFile01">
+                </div>
+                <div class="col-12">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                        <label class="form-check-label" for="gridCheck">
+                            Check me out
+                        </label>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+            </form>
+        </div>
     </div>
 </body>
+
 </html>

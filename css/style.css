@@ -1,30 +1,3 @@
-body{
-  
-  
-  
-}
-th, td {
-  border:1px solid black;
-}
-
-.logo img{
-  height: 280px;
-  width: 200px;
-}
-.banner img{
-  height: 100px;
-  width: 180px;
-}
-.banner_ing img{
-  height: 160px;
-  width: 100px;
-}
-.kidesness img{
-  height: 280px;
-  width: 200px;
- 
-}
-.Rotate-text{
-  rotate: 90deg;
-  border: none;
+.re_form{
+  margin-top: 40px;
 }
